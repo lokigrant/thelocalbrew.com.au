@@ -1,0 +1,212 @@
+
+
+
+
+@font-face {
+  font-family: 'klinic_slabmedium';
+  src: url('../fonts/klinicslabmedium-webfont.eot');
+  src: url('../fonts/klinicslabmedium-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/klinicslabmedium-webfont.woff') format('woff'),
+       url('../fonts/klinicslabmedium-webfont.ttf') format('truetype'),
+       url('../fonts/klinicslabmedium-webfont.svg#klinic_slabmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'klinic_slabbold_italic';
+  src: url('../fonts/klinicslabboldit-webfont.eot');
+  src: url('../fonts/klinicslabboldit-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/klinicslabboldit-webfont.woff') format('woff'),
+       url('../fonts/klinicslabboldit-webfont.ttf') format('truetype'),
+       url('../fonts/klinicslabboldit-webfont.svg#klinic_slabbold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'klinic_slablight';
+  src: url('../fonts/klinicslablight-webfont.eot');
+  src: url('../fonts/klinicslablight-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/klinicslablight-webfont.woff') format('woff'),
+       url('../fonts/klinicslablight-webfont.ttf') format('truetype'),
+       url('../fonts/klinicslablight-webfont.svg#klinic_slablight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'klinic_slabbold';
+  src: url('../fonts/klinicslabbold-webfont.eot');
+  src: url('../fonts/klinicslabbold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/klinicslabbold-webfont.woff') format('woff'),
+       url('../fonts/klinicslabbold-webfont.ttf') format('truetype'),
+       url('../fonts/klinicslabbold-webfont.svg#klinic_slabbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'),
+       url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'),
+       url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'),
+       url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
+.fa-map-marker:before {
+  content: "\f041";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+body {
+  margin-bottom: 100px;
+}
+h1, h2, h3, p {
+  text-transform: uppercase;
+  color: #000;
+}
+hr {
+  height: 3px;
+  background: #000;
+  width: 50%;
+}
+.header {
+  background: url('../img/localbrew_header.jpg') center center no-repeat;
+  background-size: cover;
+}
+.header h1,
+.header h2 {
+  color: #fff;
+  text-align: center;
+}
+.header h1 {
+  font-family: 'klinic_slabbold_italic';
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.header h2 {
+  font-family: 'klinic_slabmedium';
+  font-size: 24px;
+}
+.header .logo {
+  background: url('../img/logo.svg') center center no-repeat;
+  margin: 40px auto;
+  background-size: contain;
+  width: 1000px;
+}
+.header .social {
+  margin: 40px 0 10px 0;
+  text-align: center;
+}
+.header .social a {
+  color: #000;
+  font-size: 18px;
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  margin: 3px;
+}
+.header .social a:hover {
+  color: #c13500;
+  background: #fff;
+  text-decoration: none;
+}
+.main h1,
+.main h3 {
+  text-align: center;
+}
+.main h1 {
+  font-family: 'klinic_slabmedium';
+  font-size: 48px;
+  margin: 40px 0;
+}
+.main h2 {
+  font-family: 'klinic_slabbold';
+  font-size: 30px;
+  margin: 30px 0 0 0;
+}
+.main h3 {
+  font-family: 'klinic_slabmedium';
+  font-size: 22px;
+  margin: 30px 0;
+}
+.main p {
+  font-family: 'klinic_slablight';
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+.navbar {
+  font-family: 'klinic_slabmedium';
+  text-transform: uppercase;
+}
+@media (min-width: 320px) {
+  .header .logo {
+    width: 150px;
+    height: 150px;
+  }
+  .header .social a {
+    font-size: 24px;
+    width: 40px;
+    line-height: 40px;
+  }
+}
+@media (min-width: 400px) {
+  .header .logo {
+    width: 450px;
+  }
+}
+@media (min-width: 768px) {
+  .header .logo {
+    width: 600px;
+    height: 300px
+  }
+  .header .social {
+    text-align: right;
+    margin-left: 5px 0 0 0;
+  }
+}
+@media (min-width: 992px) {
+  .header .logo {
+    width: 900px;
+    height: 400px;
+  }
+  .header {
+  background: url('../img/localbrew_header.jpg') center top no-repeat;
+  background-size: 100% auto;
+}
+.container{width:100%}
+}
+@media (min-width: 1200px) {
+  .header .logo {
+    width: 1000px;
+    height: 400px
+  }
+    .header {
+  background: url('../img/localbrew_header.jpg') center top no-repeat;
+  background-size: 100% auto;
+}
+.container{width:100%}
+}
